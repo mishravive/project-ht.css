@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background-color: rosybrown;
+  }
+  
+  .choice-button {
+    height: 100px;
+    width: 100px;
+    border: none;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+
+  }
+  
+  .choice-image {
+    height: 75px;
+  }
+  #reset{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+  #reset:hover{
+        background-color: red;
+        color: black;
+        transform: scale(1.1);
+  }
+  .choice-button:hover{
+    background-color: black;
+    transform: scale(1.2);
+  }
+
+
